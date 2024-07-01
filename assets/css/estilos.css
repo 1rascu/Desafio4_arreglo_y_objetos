@@ -1,5 +1,5 @@
 .main-section {
-    background-image: url('../img/venta_arriendo_vivienda.jpg');
+    background-image: url('../img/img-main.jpeg');
     background-size: cover; /* La imagen cubrirá todo el ancho y largo */
     background-position: center;
     height: 300px;
@@ -17,3 +17,30 @@
 .card img{
     height: 250px;
 }
+
+#pagarriendo {
+    background-image: url('../img/arriendo.webp');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#pagventa {
+    background-image: url('../img/venta_arriendo_vivienda.jpg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
+

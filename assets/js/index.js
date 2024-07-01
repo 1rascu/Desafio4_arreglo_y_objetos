@@ -6,7 +6,7 @@ const propiedadesArriendo = [
         ubicacion: '123 Main Street, Anytown, CA 91234',
         habitaciones: 2,
         baños: 2,
-        costo: 2000,
+        costo: 150000,
         smoke: false,
         pets: true
     },
@@ -16,8 +16,8 @@ const propiedadesArriendo = [
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789',
         habitaciones: 3,
-        baños: 3,
-        costo: 2500,
+        baños: 2,
+        costo: 200000,
         smoke: true,
         pets: true
     },
@@ -28,7 +28,7 @@ const propiedadesArriendo = [
         ubicacion: '789 Quiet Street, Suburbia, CA 54321',
         habitaciones: 3,
         baños: 2,
-        costo: 2200,
+        costo: 450000,
         smoke: false,
         pets: false
     },
@@ -42,7 +42,7 @@ const propiedadesVenta = [
         ubicacion: '321 Maple Drive, Greentown, CA 65432',
         habitaciones: 4,
         baños: 3,
-        costo: 500000,
+        costo: 12000000,
         smoke: true,
         pets: false
     },
@@ -53,7 +53,7 @@ const propiedadesVenta = [
         ubicacion: '654 Oak Street, Luxuryville, CA 98765',
         habitaciones: 5,
         baños: 4,
-        costo: 1200000,
+        costo: 16000000,
         smoke: false,
         pets: true
     },
@@ -64,7 +64,7 @@ const propiedadesVenta = [
         ubicacion: '987 Vine Road, Wineland, CA 87654',
         habitaciones: 3,
         baños: 2,
-        costo: 850000,
+        costo: 13000000,
         smoke: true,
         pets: false
     },
@@ -101,4 +101,4 @@ function renderizarPropiedades(propiedades, container) {
 }
 
 renderizarPropiedades(propiedadesVenta, ventaList);
-renderizarPropiedades(propiedadesAlquiler, arriendoList);
+renderizarPropiedades(propiedadesArriendo, arriendoList);
