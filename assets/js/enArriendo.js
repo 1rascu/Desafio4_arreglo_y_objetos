@@ -1,75 +1,75 @@
-const propiedadesAlquiler = [
+const propiedadesArriendo = [
     {
-        nombre: 'Apartamento en el centro de la ciudad',
-        src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60',
-        descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
-        ubicacion: '123 Main Street, Anytown, CA 91234',
+        nombre: 'Moderna Casa Dentro de condominio',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_647657-MLC76738092218_062024-W.webp',
+        descripcion: 'Casa Acogedora, espaciosa',
+        ubicacion: '675 hojuela, Santiago , Buin',
         habitaciones: 2,
         baños: 2,
-        costo: 2000,
+        costo: 600000,
         smoke: false,
         pets: true
     },
     {
-        nombre: 'Apartamento luminoso con vista al mar',
-        src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-        descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar',
-        ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789',
-        habitaciones: 3,
-        baños: 3,
-        costo: 2500,
+        nombre: 'Arriendo casa Simple',
+        src:'https://http2.mlstatic.com/D_NQ_NP_787667-MLC54972839373_042023-W.webp',
+        descripcion: 'Casa Acogedora',
+        ubicacion: '456 el antro, Santiago, los tomo',
+        habitaciones: 2,
+        baños: 1,
+        costo: 670000,
         smoke: true,
         pets: true
     },
     {
         nombre: 'Condominio moderno en zona residencial',
-        src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFwYXJ0YW1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_910991-MLC76744659034_062024-W.webp',
         descripcion: 'Moderno condominio de 3 habitaciones en una zona residencial tranquila.',
-        ubicacion: '789 Quiet Street, Suburbia, CA 54321',
+        ubicacion: '789 Street, buin, lindero',
         habitaciones: 3,
         baños: 2,
-        costo: 2200,
+        costo: 700000,
         smoke: false,
         pets: false
     },
     {
         nombre: 'Duplex en medio de la ciudad',
-        src: 'https://www.hogares.cl/wp-content/uploads/2023/08/01_EstarCocina_v.3-BAJA-1024x574.png',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_873928-MLC76758777364_062024-W.webp',
         descripcion: 'Moderno duplex de 2 habitaciones cerca del centro de l ciudad',
-        ubicacion: '958 Olympia Avenue, Maine, CA 145464',
+        ubicacion: '958 Olympia, Santiago, Las Condes',
         habitaciones: 2,
         baños: 2,
-        costo: 3200,
+        costo: 320000,
         smoke: false,
         pets: false
     },
     {
-        nombre: 'Casa de campo con piscina',
-        src: 'https://content.elmueble.com/medio/2021/03/10/00485448_3219ffc0_1200x799.jpg',
+        nombre: 'Casa en arriendo',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_913114-MLC76089196031_042024-W.webp',
         descripcion: 'Moderno condominio de 3 habitaciones en una zona residencial tranquila.',
         ubicacion: 'Pasaje Iver 854, Olmué, Chile',
         habitaciones: 4,
-        baños: 4,
-        costo: 6200,
+        baños: 2,
+        costo: 620000,
         smoke: false,
         pets: true
     },
     {
-        nombre: 'Casa en medio del bosque',
-        src: 'https://i.blogs.es/89f672/ablackaframe_38871474_1609162982522286_6610420868013195_n/1024_2000.jpg',
+        nombre: 'Casa en arriendo',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_642920-MLC77234174263_062024-W.webp',
         descripcion: 'Moderno condominio de 3 habitaciones en una zona residencial tranquila.',
-        ubicacion: 'Ruta 89, Valdivia, Chile',
+        ubicacion: '444 el esfuerzo, Valdivia, Chile',
         habitaciones: 2,
-        baños: 2,
-        costo: 3200,
+        baños: 3,
+        costo: 760000,
         smoke: false,
         pets: false
     },
     {
-        nombre: 'Casa en la montaña',
-        src: 'https://content.arquitecturaydiseno.es/medio/2021/08/23/casa-moderna-en-los-bosques-de-canada-5e022697-1500x1080_58fa7c01_1500x1080.jpeg',
-        descripcion: 'Hermosa casa en medio de la montaña.',
-        ubicacion: '565, Cerro la Campana. Olmué, Chile',
+        nombre: 'Casa en arriendo',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_947276-MLC77053361042_062024-W.webp',
+        descripcion: 'Casa Acogedora, espaciosa',
+        ubicacion: '333 Cerro la Campana, Olmué, Chile',
         habitaciones: 5,
         baños: 4,
         costo: 890000,
@@ -77,21 +77,21 @@ const propiedadesAlquiler = [
         pets: true
     },
     {
-        nombre: 'Casa tipica de Valparaiso',
-        src: 'https://d1cfu8v5n1wsm.cloudfront.net/toctoc/fotos/20230524/2588327/n_wm_sothebys_163703_101163703_239968_1.webp',
-        descripcion: 'Encantadora casa de campo con su propio viñedo.',
-        ubicacion: 'Cerro Alegre, Valparaiso, Chile',
+        nombre: 'Casa arriendo',
+        src: 'https://http2.mlstatic.com/D_NQ_NP_836816-MLC77224440359_062024-W.webp',
+        descripcion: 'Casa Acogedora, espaciosa',
+        ubicacion: '1790 el paso, Santiago, Lagranja',
         habitaciones: 3,
         baños: 2,
-        costo: 1850000,
+        costo: 650000,
         smoke: false,
         pets: true
     },
     {
-        nombre: 'Casa acogedora en medio de la nieve',
-        src: 'https://content.arquitecturaydiseno.es/medio/2021/01/11/casas-en-la-montana-nevadas-de-madera_6caa737f_1500x1000.jpg',
-        descripcion: 'Encantadora casa en la nieve.',
-        ubicacion: '895 Snow Road, Iceland, Alaska 552352',
+        nombre: 'Casa arriendo',
+        src:'https://http2.mlstatic.com/D_NQ_NP_823955-MLC77088568336_062024-W.webp',
+        descripcion: 'Casa Acogedora',
+        ubicacion: '895 las tranuqeras, los angeles',
         habitaciones: 3,
         baños: 2,
         costo: 850000,
@@ -100,7 +100,7 @@ const propiedadesAlquiler = [
     },
 ];
 
-const alquilerList = document.getElementById('alquiler-list');
+const arriendoList = document.getElementById('arriendo-list');
 
 function renderizarPropiedades(propiedades, container) {
     propiedades.forEach(propiedad => {
@@ -129,4 +129,4 @@ function renderizarPropiedades(propiedades, container) {
     });
 }
 
-renderizarPropiedades(propiedadesAlquiler, alquilerList);
+renderizarPropiedades(propiedadesArriendo, arriendoList);
